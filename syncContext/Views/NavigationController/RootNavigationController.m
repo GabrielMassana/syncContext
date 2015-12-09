@@ -8,7 +8,7 @@
 
 #import "RootNavigationController.h"
 
-#import "ViewController.h"
+#import "CommentsViewController.h"
 
 @interface RootNavigationController () <UINavigationControllerDelegate>
 
@@ -36,7 +36,7 @@
 
 - (UIViewController *)rootViewController
 {
-    UIViewController *rootViewController = [[ViewController alloc] init];
+    UIViewController *rootViewController = [[CommentsViewController alloc] init];
     
     return rootViewController;
 }

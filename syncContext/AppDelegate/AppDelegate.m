@@ -13,7 +13,6 @@
 #import <CoreOperation/CoreOperation.h>
 
 #import "RootNavigationController.h"
-#import "UINavigationBar+HOTCustomHeight.h"
 
 static NSString *const kHOTNetworkDataOperationQueueTypeIdentifier = @"kHOTNetworkDataOperationQueueTypeIdentifier";
 
@@ -90,7 +89,6 @@ static NSString *const kHOTNetworkDataOperationQueueTypeIdentifier = @"kHOTNetwo
     if (!_navigationController)
     {
         _navigationController = [[RootNavigationController alloc] init];
-        [_navigationController.navigationBar hot_setHeight:64.0f];
         [_navigationController setNavigationBarHidden:YES];
     }
     

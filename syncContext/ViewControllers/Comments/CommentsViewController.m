@@ -6,7 +6,7 @@
 //  Copyright © 2015 GabrielMassana. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "CommentsViewController.h"
 
 #import <PureLayout/PureLayout.h>
 
@@ -15,14 +15,14 @@
 #import "CDMCoreDataManager.h"
 #import "Comment.h"
 
-@interface ViewController ()
+@interface CommentsViewController ()
 
 @property (nonatomic, strong) UITableView *tableView;
 @property (nonatomic, strong) ResultsAdapter *adapter;
 
 @end
 
-@implementation ViewController
+@implementation CommentsViewController
 
 #pragma mark - Init
 
