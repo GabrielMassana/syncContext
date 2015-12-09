@@ -22,10 +22,10 @@ static NSString *const kHOTNetworkDataOperationQueueTypeIdentifier = @"kHOTNetwo
     
     operation.onSuccess = ^(id result)
     {
-//        NSLog(@"json %lu", (unsigned long)[(NSDictionary *)result count]);
-//        NSLog(@"isMainThread %d", [NSThread currentThread].isMainThread);
-        
-        success(result);
+        if (success)
+        {
+            success(result);
+        }
     };
     
     operation.onFailure = ^(NSError *error)

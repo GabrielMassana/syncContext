@@ -9,52 +9,39 @@
 /* Begin PBXBuildFile section */
 		4BA2492817A15056AC4442CD /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A2DDBAF307BB931C4401FADD /* libPods.a */; };
 		C0E7E0CA1C16FBF700534087 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E7E0C91C16FBF700534087 /* main.m */; };
-		C0E7E0CD1C16FBF700534087 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E7E0CC1C16FBF700534087 /* AppDelegate.m */; };
-		C0E7E0D01C16FBF700534087 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E7E0CF1C16FBF700534087 /* ViewController.m */; };
 		C0E7E0D51C16FBF700534087 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0E7E0D41C16FBF700534087 /* Assets.xcassets */; };
-		C0E7E0E11C16FC4600534087 /* RootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E7E0E01C16FC4600534087 /* RootNavigationController.m */; };
-		C0E7E0E41C16FCB600534087 /* UINavigationBar+HOTCustomHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E7E0E31C16FCB600534087 /* UINavigationBar+HOTCustomHeight.m */; };
 		C0E7E0EB1C16FE0E00534087 /* CDMCoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E7E0E71C16FE0E00534087 /* CDMCoreDataManager.m */; };
 		C0E7E0EC1C16FE0E00534087 /* CDMTableViewFetchedResultsController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E7E0E91C16FE0E00534087 /* CDMTableViewFetchedResultsController.m */; };
 		C0E7E1061C16FE7C00534087 /* Hot.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C0E7E0FE1C16FE7C00534087 /* Hot.xcdatamodeld */; };
-		C0E7E1091C1703CD00534087 /* DataAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E7E1081C1703CD00534087 /* DataAPIManager.m */; };
-		C0E7E10C1C17049600534087 /* DataOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E7E10B1C17049600534087 /* DataOperation.m */; };
-		C0E7E10F1C171B5100534087 /* Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E7E10E1C171B5100534087 /* Parser.m */; };
-		C0E7E1121C171B7D00534087 /* CommentParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E7E1111C171B7D00534087 /* CommentParser.m */; };
 		C0E7E11B1C171D6900534087 /* Comment.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E7E1141C171D6900534087 /* Comment.m */; };
 		C0E7E11C1C171D6900534087 /* Comment+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E7E1161C171D6900534087 /* Comment+CoreDataProperties.m */; };
 		C0E7E11D1C171D6900534087 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E7E1181C171D6900534087 /* User.m */; };
 		C0E7E11E1C171D6900534087 /* User+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E7E11A1C171D6900534087 /* User+CoreDataProperties.m */; };
+		C0E7E14D1C18476300534087 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E7E12A1C18476300534087 /* AppDelegate.m */; };
+		C0E7E14E1C18476300534087 /* UINavigationBar+HOTCustomHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E7E12D1C18476300534087 /* UINavigationBar+HOTCustomHeight.m */; };
+		C0E7E14F1C18476300534087 /* DataAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E7E1311C18476300534087 /* DataAPIManager.m */; };
+		C0E7E1501C18476300534087 /* DataOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E7E1331C18476300534087 /* DataOperation.m */; };
+		C0E7E1511C18476300534087 /* Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E7E1371C18476300534087 /* Parser.m */; };
+		C0E7E1521C18476300534087 /* CommentParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E7E13A1C18476300534087 /* CommentParser.m */; };
+		C0E7E1531C18476300534087 /* ResultsAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E7E13F1C18476300534087 /* ResultsAdapter.m */; };
+		C0E7E1541C18476300534087 /* CommentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E7E1421C18476300534087 /* CommentTableViewCell.m */; };
+		C0E7E1551C18476300534087 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E7E1441C18476300534087 /* ViewController.m */; };
+		C0E7E1561C18476300534087 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E7E1491C18476300534087 /* TableViewCell.m */; };
+		C0E7E1571C18476300534087 /* RootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E7E14C1C18476300534087 /* RootNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A2DDBAF307BB931C4401FADD /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0E7E0C51C16FBF700534087 /* syncContext.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = syncContext.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0E7E0C91C16FBF700534087 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C0E7E0CB1C16FBF700534087 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		C0E7E0CC1C16FBF700534087 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C0E7E0CE1C16FBF700534087 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C0E7E0CF1C16FBF700534087 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C0E7E0D41C16FBF700534087 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0E7E0D91C16FBF700534087 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C0E7E0DF1C16FC4600534087 /* RootNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootNavigationController.h; sourceTree = "<group>"; };
-		C0E7E0E01C16FC4600534087 /* RootNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootNavigationController.m; sourceTree = "<group>"; };
-		C0E7E0E21C16FCB600534087 /* UINavigationBar+HOTCustomHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+HOTCustomHeight.h"; sourceTree = "<group>"; };
-		C0E7E0E31C16FCB600534087 /* UINavigationBar+HOTCustomHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+HOTCustomHeight.m"; sourceTree = "<group>"; };
 		C0E7E0E61C16FE0E00534087 /* CDMCoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDMCoreDataManager.h; sourceTree = "<group>"; };
 		C0E7E0E71C16FE0E00534087 /* CDMCoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDMCoreDataManager.m; sourceTree = "<group>"; };
 		C0E7E0E81C16FE0E00534087 /* CDMTableViewFetchedResultsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDMTableViewFetchedResultsController.h; sourceTree = "<group>"; };
 		C0E7E0E91C16FE0E00534087 /* CDMTableViewFetchedResultsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDMTableViewFetchedResultsController.m; sourceTree = "<group>"; };
 		C0E7E0EA1C16FE0E00534087 /* CoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataManager.h; sourceTree = "<group>"; };
 		C0E7E0FF1C16FE7C00534087 /* Hot.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hot.xcdatamodel; sourceTree = "<group>"; };
-		C0E7E1071C1703CD00534087 /* DataAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataAPIManager.h; sourceTree = "<group>"; };
-		C0E7E1081C1703CD00534087 /* DataAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataAPIManager.m; sourceTree = "<group>"; };
-		C0E7E10A1C17049600534087 /* DataOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataOperation.h; sourceTree = "<group>"; };
-		C0E7E10B1C17049600534087 /* DataOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataOperation.m; sourceTree = "<group>"; };
-		C0E7E10D1C171B5100534087 /* Parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parser.h; sourceTree = "<group>"; };
-		C0E7E10E1C171B5100534087 /* Parser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parser.m; sourceTree = "<group>"; };
-		C0E7E1101C171B7D00534087 /* CommentParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentParser.h; sourceTree = "<group>"; };
-		C0E7E1111C171B7D00534087 /* CommentParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentParser.m; sourceTree = "<group>"; };
 		C0E7E1131C171D6900534087 /* Comment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Comment.h; sourceTree = "<group>"; };
 		C0E7E1141C171D6900534087 /* Comment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Comment.m; sourceTree = "<group>"; };
 		C0E7E1151C171D6900534087 /* Comment+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Comment+CoreDataProperties.h"; sourceTree = "<group>"; };
@@ -63,6 +50,28 @@
 		C0E7E1181C171D6900534087 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		C0E7E1191C171D6900534087 /* User+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "User+CoreDataProperties.h"; sourceTree = "<group>"; };
 		C0E7E11A1C171D6900534087 /* User+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "User+CoreDataProperties.m"; sourceTree = "<group>"; };
+		C0E7E1291C18476300534087 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C0E7E12A1C18476300534087 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C0E7E12C1C18476300534087 /* UINavigationBar+HOTCustomHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+HOTCustomHeight.h"; sourceTree = "<group>"; };
+		C0E7E12D1C18476300534087 /* UINavigationBar+HOTCustomHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+HOTCustomHeight.m"; sourceTree = "<group>"; };
+		C0E7E1301C18476300534087 /* DataAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataAPIManager.h; sourceTree = "<group>"; };
+		C0E7E1311C18476300534087 /* DataAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataAPIManager.m; sourceTree = "<group>"; };
+		C0E7E1321C18476300534087 /* DataOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataOperation.h; sourceTree = "<group>"; };
+		C0E7E1331C18476300534087 /* DataOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataOperation.m; sourceTree = "<group>"; };
+		C0E7E1361C18476300534087 /* Parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parser.h; sourceTree = "<group>"; };
+		C0E7E1371C18476300534087 /* Parser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parser.m; sourceTree = "<group>"; };
+		C0E7E1391C18476300534087 /* CommentParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentParser.h; sourceTree = "<group>"; };
+		C0E7E13A1C18476300534087 /* CommentParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentParser.m; sourceTree = "<group>"; };
+		C0E7E13E1C18476300534087 /* ResultsAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsAdapter.h; sourceTree = "<group>"; };
+		C0E7E13F1C18476300534087 /* ResultsAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsAdapter.m; sourceTree = "<group>"; };
+		C0E7E1411C18476300534087 /* CommentTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentTableViewCell.h; sourceTree = "<group>"; };
+		C0E7E1421C18476300534087 /* CommentTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentTableViewCell.m; sourceTree = "<group>"; };
+		C0E7E1431C18476300534087 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C0E7E1441C18476300534087 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C0E7E1481C18476300534087 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		C0E7E1491C18476300534087 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		C0E7E14B1C18476300534087 /* RootNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootNavigationController.h; sourceTree = "<group>"; };
+		C0E7E14C1C18476300534087 /* RootNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootNavigationController.m; sourceTree = "<group>"; };
 		C94C34177868B0E3CE78C1B2 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		F26714C6A15FECD4D9AF9463 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -117,22 +126,12 @@
 		C0E7E0C71C16FBF700534087 /* syncContext */ = {
 			isa = PBXGroup;
 			children = (
-				C0E7E0CB1C16FBF700534087 /* AppDelegate.h */,
-				C0E7E0CC1C16FBF700534087 /* AppDelegate.m */,
-				C0E7E0CE1C16FBF700534087 /* ViewController.h */,
-				C0E7E0CF1C16FBF700534087 /* ViewController.m */,
-				C0E7E0DF1C16FC4600534087 /* RootNavigationController.h */,
-				C0E7E0E01C16FC4600534087 /* RootNavigationController.m */,
-				C0E7E0E21C16FCB600534087 /* UINavigationBar+HOTCustomHeight.h */,
-				C0E7E0E31C16FCB600534087 /* UINavigationBar+HOTCustomHeight.m */,
-				C0E7E1071C1703CD00534087 /* DataAPIManager.h */,
-				C0E7E1081C1703CD00534087 /* DataAPIManager.m */,
-				C0E7E10A1C17049600534087 /* DataOperation.h */,
-				C0E7E10B1C17049600534087 /* DataOperation.m */,
-				C0E7E10D1C171B5100534087 /* Parser.h */,
-				C0E7E10E1C171B5100534087 /* Parser.m */,
-				C0E7E1101C171B7D00534087 /* CommentParser.h */,
-				C0E7E1111C171B7D00534087 /* CommentParser.m */,
+				C0E7E1281C18476300534087 /* AppDelegate */,
+				C0E7E12B1C18476300534087 /* Categories */,
+				C0E7E12E1C18476300534087 /* Networking */,
+				C0E7E1341C18476300534087 /* Parser */,
+				C0E7E13B1C18476300534087 /* ViewControllers */,
+				C0E7E1451C18476300534087 /* Views */,
 				C0E7E0ED1C16FE7C00534087 /* Model */,
 				C0E7E0E51C16FE0E00534087 /* CoreDataManager */,
 				C0E7E0D41C16FBF700534087 /* Assets.xcassets */,
@@ -208,6 +207,142 @@
 				C0E7E0FE1C16FE7C00534087 /* Hot.xcdatamodeld */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		C0E7E1281C18476300534087 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				C0E7E1291C18476300534087 /* AppDelegate.h */,
+				C0E7E12A1C18476300534087 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		C0E7E12B1C18476300534087 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				C0E7E12C1C18476300534087 /* UINavigationBar+HOTCustomHeight.h */,
+				C0E7E12D1C18476300534087 /* UINavigationBar+HOTCustomHeight.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		C0E7E12E1C18476300534087 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				C0E7E12F1C18476300534087 /* APIManager */,
+				C0E7E1321C18476300534087 /* DataOperation.h */,
+				C0E7E1331C18476300534087 /* DataOperation.m */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		C0E7E12F1C18476300534087 /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				C0E7E1301C18476300534087 /* DataAPIManager.h */,
+				C0E7E1311C18476300534087 /* DataAPIManager.m */,
+			);
+			path = APIManager;
+			sourceTree = "<group>";
+		};
+		C0E7E1341C18476300534087 /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				C0E7E1351C18476300534087 /* Abstract */,
+				C0E7E1381C18476300534087 /* Comment */,
+			);
+			path = Parser;
+			sourceTree = "<group>";
+		};
+		C0E7E1351C18476300534087 /* Abstract */ = {
+			isa = PBXGroup;
+			children = (
+				C0E7E1361C18476300534087 /* Parser.h */,
+				C0E7E1371C18476300534087 /* Parser.m */,
+			);
+			path = Abstract;
+			sourceTree = "<group>";
+		};
+		C0E7E1381C18476300534087 /* Comment */ = {
+			isa = PBXGroup;
+			children = (
+				C0E7E1391C18476300534087 /* CommentParser.h */,
+				C0E7E13A1C18476300534087 /* CommentParser.m */,
+			);
+			path = Comment;
+			sourceTree = "<group>";
+		};
+		C0E7E13B1C18476300534087 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C0E7E13C1C18476300534087 /* Comments */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C0E7E13C1C18476300534087 /* Comments */ = {
+			isa = PBXGroup;
+			children = (
+				C0E7E13D1C18476300534087 /* Adapter */,
+				C0E7E1401C18476300534087 /* Cells */,
+				C0E7E1431C18476300534087 /* ViewController.h */,
+				C0E7E1441C18476300534087 /* ViewController.m */,
+			);
+			path = Comments;
+			sourceTree = "<group>";
+		};
+		C0E7E13D1C18476300534087 /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				C0E7E13E1C18476300534087 /* ResultsAdapter.h */,
+				C0E7E13F1C18476300534087 /* ResultsAdapter.m */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		C0E7E1401C18476300534087 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C0E7E1411C18476300534087 /* CommentTableViewCell.h */,
+				C0E7E1421C18476300534087 /* CommentTableViewCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		C0E7E1451C18476300534087 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C0E7E1461C18476300534087 /* Cells */,
+				C0E7E14A1C18476300534087 /* NavigationController */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C0E7E1461C18476300534087 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C0E7E1471C18476300534087 /* Abstract */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		C0E7E1471C18476300534087 /* Abstract */ = {
+			isa = PBXGroup;
+			children = (
+				C0E7E1481C18476300534087 /* TableViewCell.h */,
+				C0E7E1491C18476300534087 /* TableViewCell.m */,
+			);
+			path = Abstract;
+			sourceTree = "<group>";
+		};
+		C0E7E14A1C18476300534087 /* NavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				C0E7E14B1C18476300534087 /* RootNavigationController.h */,
+				C0E7E14C1C18476300534087 /* RootNavigationController.m */,
+			);
+			path = NavigationController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -313,20 +448,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0E7E10F1C171B5100534087 /* Parser.m in Sources */,
-				C0E7E0D01C16FBF700534087 /* ViewController.m in Sources */,
-				C0E7E1121C171B7D00534087 /* CommentParser.m in Sources */,
-				C0E7E0E41C16FCB600534087 /* UINavigationBar+HOTCustomHeight.m in Sources */,
-				C0E7E0E11C16FC4600534087 /* RootNavigationController.m in Sources */,
+				C0E7E1551C18476300534087 /* ViewController.m in Sources */,
 				C0E7E11D1C171D6900534087 /* User.m in Sources */,
-				C0E7E10C1C17049600534087 /* DataOperation.m in Sources */,
+				C0E7E14F1C18476300534087 /* DataAPIManager.m in Sources */,
+				C0E7E14E1C18476300534087 /* UINavigationBar+HOTCustomHeight.m in Sources */,
+				C0E7E1511C18476300534087 /* Parser.m in Sources */,
 				C0E7E0EB1C16FE0E00534087 /* CDMCoreDataManager.m in Sources */,
+				C0E7E14D1C18476300534087 /* AppDelegate.m in Sources */,
+				C0E7E1501C18476300534087 /* DataOperation.m in Sources */,
+				C0E7E1541C18476300534087 /* CommentTableViewCell.m in Sources */,
 				C0E7E1061C16FE7C00534087 /* Hot.xcdatamodeld in Sources */,
 				C0E7E11B1C171D6900534087 /* Comment.m in Sources */,
 				C0E7E11C1C171D6900534087 /* Comment+CoreDataProperties.m in Sources */,
-				C0E7E0CD1C16FBF700534087 /* AppDelegate.m in Sources */,
+				C0E7E1531C18476300534087 /* ResultsAdapter.m in Sources */,
+				C0E7E1571C18476300534087 /* RootNavigationController.m in Sources */,
+				C0E7E1561C18476300534087 /* TableViewCell.m in Sources */,
+				C0E7E1521C18476300534087 /* CommentParser.m in Sources */,
 				C0E7E0CA1C16FBF700534087 /* main.m in Sources */,
-				C0E7E1091C1703CD00534087 /* DataAPIManager.m in Sources */,
 				C0E7E11E1C171D6900534087 /* User+CoreDataProperties.m in Sources */,
 				C0E7E0EC1C16FE0E00534087 /* CDMTableViewFetchedResultsController.m in Sources */,
 			);

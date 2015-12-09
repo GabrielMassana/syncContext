@@ -12,6 +12,7 @@
 #import "CNMRequest.h"
 #import "CNMURLSessionDataTask.h"
 #import "CommentParser.h"
+#import "CDMCoreDataManager.h"
 
 @implementation DataOperation
 
@@ -52,9 +53,21 @@
 //            NSLog(@"json = %ld",[json[@"posts"][@"data"] count]);
 //            NSLog(@"isMainThread %d", [NSThread currentThread].isMainThread);
             
-            //Parse data here            
-            CommentParser *parser = [CommentParser parser];
-            [self didSucceedWithResult:[parser parseComments:json[@"posts"][@"data"]]];
+            
+            [[CDMCoreDataManager sharedInstance].backgroundManagedObjectContext performBlockAndWait:^
+            {
+                //Parse data here
+                CommentParser *parser = [CommentParser parser];
+                
+                NSArray *comments = [parser parseComments:json[@"posts"][@"data"]];
+                NSLog(@"comments count = %ld",[comments count]);
+                NSLog(@"comments lastObject = %@",[comments lastObject]);
+                
+                [[CDMCoreDataManager sharedInstance].backgroundManagedObjectContext save:nil];
+            }];
+
+            [self didSucceedWithResult:nil];
+
         }
         else
         {
